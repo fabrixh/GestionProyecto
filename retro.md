@@ -16,3 +16,19 @@ Este documento resume la retrospectiva del equipo DronSAR al completar el tercer
   - Carrito de productos
   - Formulario de registro y login
   - Formulario de carga y edición de productos
+
+# 🔄 Retrospectiva estrella de mar
+
+La retrospectiva de estrella de mar del nuestro equipo DronSAR luego de estar finalizando el tercer sprint del proyecto se puede resumir de la siguiente manera:
+
+<a href="https://jamboard.google.com/d/1Gs2wdcw2brC3uuam4NZVb0yCvpyKNdkrMNkCz1aQXNg/edit?usp=sharing" style="display: block; text-align: center;">
+<img src="https://i.ibb.co/kgN0BYj/image.png"> 
+</a>
+
+Para mas detalles consultar el arhivo en [ ```Retrospectiva estrella de mar - DronsAR - S3.pdf```](https://drive.google.com/file/d/1GgGOfip1HJ21Wn2Mhs7SXFOo76uD9GGT/view?usp=drive_link)
+
+# 🕒 Panel de organización en Trello
+
+A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma de Trello: https://trello.com/b/C13pJ5cq/grupo-6
+
+<img src="https://i.ibb.co/f8sHJt6/image.png">
