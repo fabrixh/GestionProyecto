@@ -29,6 +29,7 @@ Para mas detalles consultar el arhivo en [ ```Retrospectiva estrella de mar - Dr
 
 # 🕒 Panel de organización en Trello
 
-A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma de Trello: https://trello.com/b/C13pJ5cq/grupo-6
+A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma de [```Trello:```](https://trello.com/b/C13pJ5cq/grupo-6)
 
-<img src="https://i.ibb.co/f8sHJt6/image.png">
+
+<img src="https://i.ibb.co/qrdYmbr/Screenshot-102.jpg">
