@@ -12,7 +12,7 @@ Bienvenido al repositorio del proyecto integrador del curso Full-Stack de Digita
 - [Wireframe del Proyecto](#wireframe-del-proyecto)
 - [Diseño](#diseño)
 - [Retrospectiva & Sprint 2 ](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/Retro.md)
-- [Sprint 3 ](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/retro.md)🆕 <img src="https://media.tenor.com/H1eQhynQsuAAAAAi/new-post.gif" alt="GIF animado" width="20">
+- [Sprint 3 ](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/retro.md)🆕 <img src="https://media1.tenor.com/m/97VzG-cb7O0AAAAC/new-brand-new.gif" alt="GIF animado" width="28">
 
 
 ## 👨‍👨‍👦‍👦 Integrantes
