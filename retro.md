@@ -25,7 +25,7 @@ La retrospectiva de estrella de mar del nuestro equipo DronSAR luego de estar fi
 <img src="https://i.ibb.co/kgN0BYj/image.png"> 
 </a>
 
-Para mas detalles consultar el arhivo en [ ```Retrospectiva estrella de mar - DronsAR - S3.pdf```](https://drive.google.com/file/d/1GgGOfip1HJ21Wn2Mhs7SXFOo76uD9GGT/view?usp=drive_link)
+Para más detalles, consultar los siguientes enlaces en [ ```Retrospectiva estrella de mar - DronsAR - S3.pdf```](https://drive.google.com/file/d/1GgGOfip1HJ21Wn2Mhs7SXFOo76uD9GGT/view?usp=drive_link) [ ```proyectosagiles.org```](https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/)
 
 # 🕒 Panel de organización en Trello
 
