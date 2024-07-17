@@ -2,3 +2,16 @@
 <img src="https://i.ibb.co/M6mmYvF/image.png">
 
 Este documento resume la retrospectiva del equipo DronSAR al completar el tercer sprint del proyecto. Se destacan los aspectos positivos a mantener, las áreas que requieren más atención y las nuevas prácticas por implementar. Además, se presentan los entregables del sprint, incluyendo este archivo ```retro.md``` con los resultados de la retrospectiva, ~~el archivo ```daily.md``` opcional con las opiniones sobre las reuniones~~, el tablero de trabajo actualizado en Trello y la aplicación desarrollada con **Node.js+Express+EJS**. La aplicación consta de archivos parciales para modularidad, una página de inicio, listado y detalles de productos, un carrito de compras, formularios de registro y login, así como formularios para carga y edición de productos. Para más detalles sobre las directrices del proyecto, se puede consultar el siguiente [enlace](https://drive.google.com/file/d/1w-mKpy1qKadxzgiPuxwDgpiMbHBoNR43/view). 
+
+## Resumen de entregables
+- Archivo ```retro.md``` con el resultado de la retrospectiva.
+- Archivo ```daily.md``` con sus opiniones sobre las daylies/weeklies. (Opcional)
+- Tablero de trabajo actualizado.
+- Aplicación Node.js+Express+EJS con:
+  - Archivos parciales (head, header, footer, etc.)
+  - Home
+  - Listado de productos
+  - Detalle del producto
+  - Carrito de productos
+  - Formulario de registro y login
+  - Formulario de carga y edición de productos
