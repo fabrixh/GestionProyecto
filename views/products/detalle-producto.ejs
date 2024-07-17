@@ -1,0 +1,215 @@
+<%- include('../partials/head') %>
+
+
+<body>
+    <%- include('../partials/header') %>
+
+
+    <section class="pagina-encabezado">
+        <div class="navegacion">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li><a id="menu-activado" href="#">Detalle Producto</a></li>
+            </ul>
+        </div>
+        <div class="titulo-detalle-producto">
+            <h1>Nombre del Drone Ejemplo</h1>
+        </div>
+    </section>
+
+    <section class="menu-producto-reseña">
+
+        <div class="menu-producto-detalle">
+            <div class="navegacion-producto">
+                <ul>
+                    <li><a href="#">Info general</a></li>
+                    <li><a href="#">Detalle producto</a></li>
+                    <li><a href="#">Reseñas</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="reseña-estrellas">
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>68 Reseñas</p>
+        </div>
+
+    </section>
+
+    <div class="contenedor-detalle-producto">
+        <div class="columna-izquierda">
+            <img src="/img/imagen-principal.png" alt="Drone">
+            <div class="imagenes-chicas">
+                <img id="borde-imagen" src="/img/imagen-principal.png" alt="Imagen chica 1">
+                <img src="/img/imagen-principal.png" alt="Imagen chica 2">
+                <img src="/img/imagen-principal.png" alt="Imagen chica 3">
+                <img src="/img/imagen-principal.png" alt="Imagen chica 4">
+                <img src="/img/imagen-principal.png" alt="Imagen chica 5">
+            </div>
+        </div>
+        <div class="columna-derecha">
+            <div class="modelo-producto">
+                <h2>Modelo: nombreX</h2>
+            </div>
+            <div class="color-producto">
+                <h2>Color:</h2>
+                <span></span>
+            </div>
+            <div class="precio-disponibilidad">
+                <div class="precio">
+                    $33544
+                </div>
+                <div class="disponibilidad">
+                    <i class="fas fa-dolly"></i>Disponible para ordenar
+                </div>
+            </div>
+            <div class="botones-detalle-producto">
+                    <button>-</button>
+                    <input type="number" id="boton-cantidad">
+                    <button>+</button>
+                    <button style="background-color: rgb(238, 89, 89);"><i class="fas fa-shopping-cart"></i> Agregar al carrito</button>
+                    <button id="corazon"><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="opciones-envio">
+                <div class="opcion-envio">
+                    <h2>Opciones de envio</h2>
+                </div>
+                <div class="ubicacion-local">
+                    <div>
+                        <button><i class="fas fa-map-marker-alt"></i> Encontrar en tienda</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="primer-descripcion-producto">
+                <div class="envio-clase">
+                    <p>Envios:</p>
+                </div>
+                <div class="envio-dia">
+                    <p>Hoy</p>
+                </div>
+                <div class="envio-free">
+                    <p>Free</p>
+                </div>
+            </div>
+
+            <div class="opcion-envio">
+                <h2>Información de Garantia</h2>
+            </div>
+            <div class="segundo-descripcion-producto">
+                <div class="garantia-clase">
+                    <p>Garantia:</p>
+                </div>
+                <div class="garantia-dia">
+                    <p>3 Meses</p>
+                </div>
+                <div class="garantia-precio">
+                    <p>$0</p>
+                </div>
+            </div>
+
+            <div class="opcion-envio">
+                <h2>Pago y Credito</h2>
+            </div>
+            <div class="tercera-descripcion-producto">
+                <div class="pago-clase">
+                    <h2 style="font-size: 14px;">Todas las tarjetas credito y debito</h2>
+                </div>
+                <div class="pago-dia">
+                    <img src="/img/tarjetas.png" width="100px" alt="">
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="contenedor-informacion-producto">
+
+        <div class="primera-columna">
+            <h1>Detalles del producto</h1>
+            <h2>Titulo 1</h2>
+            <div class="info-producto">
+                <div class="info-titulo">
+                    <p>XXXXXXX</p>
+                    <P>XXXXXX2</P>
+                    <P>XXXXXX3</P>
+                    <P>XXXXXX4</P>
+                </div>
+                <div class="info-valor">
+                    <P>VALOR XXX</P>
+                    <P>VALOR XXX</P>
+                    <P>VALOR XXX</P>
+                    <P>VALOR XXX</P>
+                </div>
+            </div>
+
+            <h2>Titulo 2</h2>
+            <div class="info-producto">
+                <div class="info-titulo">
+                    <p>XXXXXXX</p>
+                    <P>XXXXXX2</P>
+                    <P>XXXXXX3</P>
+                    <P>XXXXXX4</P>
+                </div>
+                <div class="info-valor">
+                    <P>VALOR XXX</P>
+                    <P>VALOR XXX</P>
+                    <P>VALOR XXX</P>
+                    <P>VALOR XXX</P>
+                </div>
+            </div>
+            <a href="#"><p>Ver todos los detalles del producto</p></a>
+        </div>
+        <div class="segunda-columna">
+            <div class="row-segunda-columna">
+                <div class="imagen-descripcion">
+                    <div class="img-producto-relacionado">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="titulos-producto-relacionado">
+                    <div class="relacion-reseña-estrellas">
+                        <div class="rating">
+                            <!--
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            -->
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="titulo-producto-relacion">
+                        <p></p>
+                        <p></p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <main>
+        <%- include('../partials/footer') %>
+
+    </main>
+
+
+
+</body>
+
+</html>

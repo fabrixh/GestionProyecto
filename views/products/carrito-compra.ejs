@@ -1,0 +1,207 @@
+<%- include('../partials/head') %>
+
+
+<body>
+    <%- include('../partials/header') %>
+
+
+    <section class="pagina-encabezado">
+        <div class="navegacion">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li><a href="#">Tienda</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li><a id="menu-activado" href="#">Carrito</a></li>
+
+            </ul>
+        </div>
+        <div class="titulo-detalle-producto">
+            <h1>Carrito de Compra</h1>
+        </div>
+        
+        <hr>
+
+
+    </section>
+
+
+    <div class="contenedor-carrito-producto">
+
+        <div class="primer-columna-carrito">
+            <div class="encabezado-carrito-producto">
+                <div class="menu-encabezo-carrito">
+                    <ul>
+                        <li>Productos</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                        <li>Total</li>
+                        <li>VaciarCarrito</li>
+                    </ul>
+                </div>
+                <div class="detalles-carrito-producto">
+                    <div class="producto">
+                        <div class="tarjetita">
+                            <div class="img-carrito"><img src="/img/imagen-principal.png" alt=""></div>
+                            <div class="titulos-productos-carrito">
+                                <div class="parrafos-start">
+                                    <p style="font-size: 18px;">Nombre del drone</p>
+                                    <p>Color: Gris</p>
+                                    <p>Modelo: XXXXX</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span>$5432.99</span>
+                        <input type="number" width="30px" value="1">
+                        <div class="total-precio-carrito">
+                            <p>$5432.99</p>
+                        </div>
+                        <button>X</button>
+                    </div>
+
+                    <div class="producto">
+                        <div class="tarjetita">
+                            <div class="img-carrito"><img src="/img/imagen-principal.png" alt=""></div>
+                            <div class="titulos-productos-carrito">
+                                <div class="parrafos-start">
+                                    <p style="font-size: 18px;">Nombre del drone</p>
+                                    <p>Color: Gris</p>
+                                    <p>Modelo: XXXXX</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span>$5432.99</span>
+                        <input type="number" width="30px" value="1">
+                        <div class="total-precio-carrito">
+                            <p>$5432.99</p>
+                        </div>
+                        <button>X</button>
+                    </div>
+
+                    <div class="producto">
+                        <div class="tarjetita">
+                            <div class="img-carrito"><img src="/img/imagen-principal.png" alt=""></div>
+                            <div class="titulos-productos-carrito">
+                                <div class="parrafos-start">
+                                    <p style="font-size: 18px;">Nombre del drone</p>
+                                    <p>Color: Gris</p>
+                                    <p>Modelo: XXXXX</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span>$5432.99</span>
+                        <input type="number" width="30px" value="1">
+                        <div class="total-precio-carrito">
+                            <p>$5432.99</p>
+                        </div>
+                        <button>X</button>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="" style="text-decoration: none;">&lt; Continue en la tienda</a>
+        </div>
+
+        <div class="segunda-columna-carrito">
+            <div class="checkout-summary">
+                <h2>Resumen del pedido</h2>
+                <div class="order-details">
+                  <div class="order-item">
+                    <span class="item-label">Subtotal (3 items):</span>
+                    <span class="item-value">$2,427.00</span>
+                  </div>
+                  <div class="order-item">
+                    <span class="item-label">Ahorro:</span>
+                    <span class="item-value">-$110.00</span>
+                  </div>
+                  <div class="order-item">
+                    <span class="item-label">Envio:</span>
+                    <span class="item-value">gratis</span>
+                  </div>
+                </div>
+                <div class="order-total">
+                  <span class="total-label">Total Estimado:</span>
+                  <span class="total-value">$2,390.40</span>
+                </div>
+                <div class="btn-proceder-pago">
+                    <a href="#" class="checkout-button">Proceder al pago &gt;</a>
+                </div>
+              </div>
+              <div class="checkout-summary2">
+                <span></span>
+              </div>
+        </div>
+
+    </div>
+
+    <h2>Productos relacionados</h2>
+    <hr width="70%">
+    <section class="productos-relacion">
+  
+        <div class="producto-relacion">
+          <img src="/img/imagen-principal.png" alt="Drone Inspire 3">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+        </div>
+          <h3>Inspire 3</h3>
+          <p>Captura áreas extensas con una sola batería.</p>
+          <span class="precio">$340.99</span>
+          <a href="#" class="boton"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+  
+        <div class="producto-relacion">
+          <img src="/img/imagen-principal.png" alt="Drone Phaton 2">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+          <h3>Phaton 2</h3>
+          <p>Velocidad y potencia en un solo dron.</p>
+          <span class="precio">$430.00</span>
+          <a href="#" class="boton"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+  
+        <div class="producto-relacion">
+          <img src="/img/imagen-principal.png" alt="Drone Mavic">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+        </div>
+          <h3>Mavic</h3>
+          <p>Dron compacto y fácil de manejar.</p>
+          <span class="precio">$899.00</span>
+          <a href="#" class="boton"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+  
+        <div class="producto-relacion">
+          <img src="/img/imagen-principal.png" alt="Drone Air Series">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+          <h3>Air Series</h3>
+          <p>Dron ideal para principiantes.</p>
+          <span class="precio">$200.00</span>
+          <a href="#" class="boton"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </section>
+
+      <%- include('../partials/footer') %>
+
+
+</body>
+
+</html>
