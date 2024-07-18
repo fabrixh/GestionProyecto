@@ -1,63 +1,39 @@
-# Sprint 2 - DronsAR
+# Sprint 3 - Templates Engines EJS
+<a href="https://drive.google.com/file/d/1w-mKpy1qKadxzgiPuxwDgpiMbHBoNR43/view">
+<img src="https://i.ibb.co/M6mmYvF/image.png">
 
-Este documento resume la retrospectiva del equipo DronSAR después de completar el primer sprint del proyecto. En él se destacan los aspectos positivos a mantener, las áreas que requieren más atención y las nuevas prácticas por implementar. Además, se presentan los entregables del proyecto, que incluyen este archivo denominado ```retro.md``` con los resultados de la retrospectiva, el enlace al tablero de trabajo en Trello y los diferentes componentes de la aplicación **Node.js+Express** desarrollada por el equipo, tales como la página de inicio, los detalles del producto, el carrito de compras, el formulario de registro y el formulario de inicio de sesión. Las consignas a cumplir están en el siguiente [enlace](https://drive.google.com/file/d/1qmrlVIY1rKOGIr-vLzkFzX-BYrdVtRmv/view) para más información. 
+Este documento resume la retrospectiva del equipo DronSAR al completar el tercer sprint del proyecto. Se destacan los aspectos positivos a mantener, las áreas que requieren más atención y las nuevas prácticas por implementar. Además, se presentan los entregables del sprint, incluyendo este archivo ```retro.md``` con los resultados de la retrospectiva, ~~el archivo ```daily.md``` opcional con las opiniones sobre las reuniones~~, el tablero de trabajo actualizado en Trello y la aplicación desarrollada con **Node.js+Express+EJS**. La aplicación consta de archivos parciales para modularidad, una página de inicio, listado y detalles de productos, un carrito de compras, formularios de registro y login, así como formularios para carga y edición de productos. Para más detalles sobre las directrices del proyecto, se puede consultar el siguiente [```enlace```](https://drive.google.com/file/d/1w-mKpy1qKadxzgiPuxwDgpiMbHBoNR43/view). 
 
 ## Resumen de entregables
-- Archivo retro.md con el resultado de la retrospectiva.
-- Enlace al tablero de trabajo
-- Aplicación Node.js+Express con:
-  - Home (index.html)
-  - Detalle del producto (productDetail.html)
-  - Carrito de compras (productCart.html)
-  - Formulario de registro (register.html)
-  - Formulario de login (login.html)
+- Archivo ```retro.md``` con el resultado de la retrospectiva.
+- Archivo ```daily.md``` con sus opiniones sobre las daylies/weeklies. (Opcional)
+- Tablero de trabajo actualizado.
+- Aplicación Node.js+Express+EJS con:
+  - Archivos parciales (head, header, footer, etc.)
+  - Home
+  - Listado de productos
+  - Detalle del producto
+  - Carrito de productos
+  - Formulario de registro y login
+  - Formulario de carga y edición de productos
 
 
 
 
 # 🔄 Retrospectiva estrella de mar
 
-La retrospectiva de estrella de mar del equipo DronSAR luego de haber finalizado el primer sprint del proyecto se puede resumir de la siguiente manera:
+La retrospectiva de estrella de mar del nuestro equipo DronSAR luego de estar finalizando el tercer sprint del proyecto se puede resumir de la siguiente manera:
 
-<a href="https://jamboard.google.com/d/1Gs2wdcw2brC3uuam4NZVb0yCvpyKNdkrMNkCz1aQXNg/edit?usp=sharing" style="display: block; text-align: center;">
-<img src="https://img001.prntscr.com/file/img001/MwxO7cRWTjKf2S3NRQeYAg.png" width="800">
+<img src="https://i.ibb.co/kgN0BYj/image.png"> 
+
+Para más detalles, consultar los siguientes enlaces en [```Retrospectiva estrella de mar - DronsAR - S3.pdf```](https://drive.google.com/file/d/1GgGOfip1HJ21Wn2Mhs7SXFOo76uD9GGT/view?usp=drive_link) [```proyectosagiles.org```](https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/)
 
 
-## 👍 Keep Doing (Seguir Haciendo)
-- **Cooperación**: Mantener la colaboración entre los miembros del equipo.
-- **Buena organización y comunicación**: Continuar con una buena organización y comunicación efectiva.
-- **Empatía**: Seguir mostrando empatía entre los compañeros de equipo.
-- **Comunicación asertiva**: Mantener una comunicación clara y directa.
-- **Capacitar a nuestros compañeros**: Seguir capacitando a los miembros del equipo.
+# 🕒 Panel de organización en Trello
 
-## ➕ More Of (Hacer Más)
-- **Comunicación**: Incrementar la comunicación entre los miembros del equipo.
-- **Constancia**: Ser más constantes en el trabajo y en las reuniones.
-- **Feedback**: Dar y recibir más retroalimentación.
-- **Automotivación - motivar al equipo**: Aumentar la automotivación y motivar más al equipo.
-- **Reuniones espontáneas**: Tener más reuniones espontáneas.
-- **Confianza**: Fomentar la confianza dentro del equipo.
 
-## ⏱️ Start Doing (Comenzar a Hacer)
-- **Avisar por el grupo de WhatsApp antes de hacer un commit**: Informar en el grupo de WhatsApp antes de realizar un commit.
-- **Trabajar en ramas diferentes en GitHub para tener control del proyecto principal**: Utilizar ramas diferentes en GitHub para mejor control del proyecto.
-- **Respetar horarios**: Cumplir con los horarios establecidos.
-- **Leer documentación**: Dedicar tiempo a leer la documentación.
-- **Planificación**: Empezar a planificar mejor las tareas y actividades.
-
-## 🚫 Stop Doing (Dejar de Hacer)
-- **Trabajar solo sin informar la tarea**: Evitar trabajar de forma aislada sin comunicar las tareas realizadas.
-- **Comentarios negativos**: Parar de hacer comentarios negativos.
-
-## 🎈 Less Of (Hacer Menos)
-- **No pedir ayuda**: Evitar la falta de solicitud de ayuda cuando se necesita.
-- **Distracciones**: Reducir las distracciones durante el trabajo.
-
-# 📅 Tablero de trabajo en Trello
-
-A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma de Trello: https://trello.com/b/C13pJ5cq/grupo-6
-
-<br> <!-- Salto de línea -->
+A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma de [```Trello:```](https://trello.com/b/C13pJ5cq/grupo-6)
+<img src="https://i.ibb.co/qrdYmbr/Screenshot-102.jpg">
 
 # 🚀 Aplicación Node.js+Express 
 
