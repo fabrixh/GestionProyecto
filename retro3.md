@@ -86,7 +86,7 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
   Este archivo representa la página principal de la aplicación, donde los usuarios llegan inicialmente. Contiene la estructura y el contenido principal que se muestra al cargar la aplicación.
 
   <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/index.ejs">
-  <img src="https://img001.prntscr.com/file/img001/IPUaKk7RRl-1cRTYUl7ixw.jpg" width="700">
+  <img src="https://i.ibb.co/31whB1t/image.png">
   </a>
 
 ### Partials
