@@ -90,21 +90,28 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
   </a>
 
 ### Partials
-#### ```header.ejs - head.ejs  - footer.ejs```  
-  
+
+[```header.ejs```](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/partials/header.ejs): Contiene el encabezado visible de la página, incluyendo el logotipo, menú de navegación principal y otros elementos relacionados con la navegación y la identidad visual.
+
+[```head.ejs```](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/partials/head.ejs): Contiene información técnica y de configuración para el navegador, como meta etiquetas, enlaces a CSS y scripts JavaScript necesarios para la página.
+
+[```footer.ejs```](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/partials/footer.ejs): Contiene elementos visibles al final de la página, como enlaces adicionales, información de contacto y créditos, que completan la experiencia del usuario.
+ 
+ 
 
 <br> <!-- Salto de línea -->
 
-## 👉 Formulario de registro ```(registro.ejs)```
+## 🙋🏻‍♂️ Usuarios
+### 👉 Formulario de registro ```(registro.ejs)```
 
   Aquí se encuentra el formulario que los usuarios utilizan para registrarse en la aplicación. Incluye campos y validaciones necesarios para capturar la información de los nuevos usuarios.
 
-<a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/registro.html" >
+<a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/users/registro.ejs" >
 <img src="https://img001.prntscr.com/file/img001/VxlYD9xNRc6WByD8jhOv_Q.png" width="400">
 </a>
 <br> <!-- Salto de línea -->
 
-## 🔐 Formulario de login ```(login.ejs)```
+### 🔐 Formulario de login ```(login.ejs)```
 
   Este formulario permite a los usuarios iniciar sesión en la aplicación. Es crucial para la autenticación y seguridad de los usuarios al acceder a sus cuentas personales.
 
@@ -113,25 +120,29 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
 </a>  
 
 <br> <!-- Salto de línea -->
-
-## 🔍 Detalle del producto ```(detalle-producto.ejs)```
+## 🛍️ Productos
+### 🔍 Detalle del producto ```(detalle-producto.ejs)```
 
   La página de detalle del producto muestra información detallada sobre un producto específico. Esto incluye características, precios y opciones de compra, proporcionando una vista profunda para los usuarios interesados en un artículo en particular.
 
-<a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/detalle-producto.html">
+<a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/products/detalle-producto.ejs">
 <img src="https://img001.prntscr.com/file/img001/-_2y_NY3RU-KyviikAClJQ.png" width="700">
 </a>
 
 <br> <!-- Salto de línea -->
 
-## 🛒 Carrito de compras ```(carrito-compra.ejs)```
+### 🛒 Carrito de compras ```(carrito-compra.ejs)```
 
   Aquí se encuentra la interfaz donde los usuarios gestionan los productos seleccionados para la compra. Permite agregar, modificar o eliminar elementos del carrito antes de proceder con la compra final.
 
-  <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/carrito-compra.html">
+  <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/products/carrito-compra.ejs">
   <img src="https://img001.prntscr.com/file/img001/6yVSObBMR8mcrgjgSxzdGw.png" width="700">
   </a>
 
-## 📑 Formulario de carga y edición de productos
+### 📑 Formulario de carga y edición de productos
 
-Este formulario proporciona una interfaz intuitiva para que los usuarios ingresen y modifiquen detalles de productos. Permite la carga inicial de nuevos productos con datos detallados como nombre, descripción, precio y categoría. Además, facilita la edición rápida y eficiente de productos existentes, asegurando que la información esté siempre actualizada y precisa para los clientes y administradores del sistema.
+  Este formulario proporciona una interfaz intuitiva para que los usuarios ingresen y modifiquen detalles de productos. Permite la carga inicial de nuevos productos con datos detallados como nombre, descripción, precio y categoría. Además, facilita la edición rápida y eficiente de productos existentes, asegurando que la información esté siempre actualizada y precisa para los clientes y administradores del sistema.
+
+  <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/carrito-compra.html">
+  <img src="https://img001.prntscr.com/file/img001/6yVSOcbBMR8mcrgjgSxzdGw.png" width="700">
+  </a>
