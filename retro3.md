@@ -2,7 +2,7 @@
 <a href="https://drive.google.com/file/d/1w-mKpy1qKadxzgiPuxwDgpiMbHBoNR43/view">
 <img src="https://i.ibb.co/M6mmYvF/image.png">
 
-Este documento resume la retrospectiva del equipo DronSAR al completar el tercer sprint del proyecto. Se destacan los aspectos positivos a mantener, las áreas que requieren más atención y las nuevas prácticas por implementar. Además, se presentan los entregables del sprint, incluyendo este archivo ```retro.md``` con los resultados de la retrospectiva, ~~el archivo ```daily.md``` opcional con las opiniones sobre las reuniones~~, el tablero de trabajo actualizado en Trello y la aplicación desarrollada con **Node.js+Express+EJS**. La aplicación consta de archivos parciales para modularidad, una página de inicio, listado y detalles de productos, un carrito de compras, formularios de registro y login, así como formularios para carga y edición de productos. Para más detalles sobre las directrices del proyecto, se puede consultar el siguiente [```enlace```](https://drive.google.com/file/d/1w-mKpy1qKadxzgiPuxwDgpiMbHBoNR43/view). 
+Este documento resume la retrospectiva del equipo DronSAR al completar el tercer sprint del proyecto. Se destacan los aspectos positivos a mantener, las áreas que requieren más atención y las nuevas prácticas por implementar. Además, se presentan los entregables del sprint, incluyendo este archivo ```retro.md``` con los resultados de la retrospectiva, el archivo ```daily.md``` opcional con las opiniones sobre las reuniones, el tablero de trabajo actualizado en Trello y la aplicación desarrollada con **Node.js+Express+EJS**. La aplicación consta de archivos parciales para modularidad, una página de inicio, listado y detalles de productos, un carrito de compras, formularios de registro y login, así como formularios para carga y edición de productos. Para más detalles sobre las directrices del proyecto, se puede consultar el siguiente [```enlace```](https://drive.google.com/file/d/1w-mKpy1qKadxzgiPuxwDgpiMbHBoNR43/view). 
 
 ## Resumen de entregables
 - Archivo ```retro.md``` con el resultado de la retrospectiva.
@@ -35,7 +35,7 @@ Para más detalles, consultar los siguientes enlaces en [```Retrospectiva estrel
 A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma de [```Trello:```](https://trello.com/b/C13pJ5cq/grupo-6)
 <img src="https://i.ibb.co/qrdYmbr/Screenshot-102.jpg">
 
-# 🚀 Aplicación Node.js+Express 
+# 🚀 Aplicación Node.js + Express + EJS
 
 ## 📂 Estructura del Proyecto
 ```bash
@@ -58,18 +58,27 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
 │   │        ├── imagen-login.png         # Imagen para la página de inicio de sesión
 │   │        └── imagen-principal.png     # Imagen principal de la aplicación
 │   └── views/
-│       ├── carrito-compra.html    # Página del carrito de compra
-│       ├── detalle-producto.html  # Página de detalle de producto
-│       ├── index.html            # Página principal de la aplicación
-│       ├── login.html            # Página de inicio de sesión
-│       └── registro.html         # Página de registro de usuario
-├── wireframes/                        # Carpeta para los wireframes del proyecto
-├── .gitignore                         # Archivo de configuración para ignorar archivos en Git
-├── README.md                          # Archivo con información básica del proyecto
-├── Retro.md                           # Archivo para registrar retrospectivas del proyecto
-├── app.js                             # Archivo principal de la aplicación (JavaScript)
-├── package-lock.json                  # Archivo de bloqueo de versiones de paquetes (npm)
-└── package.json                       # Archivo de configuración de paquetes (npm)
+│       ├── partials/
+│       │    ├── footer.ejs               # Parcial para el pie de página
+│       │    ├── head.ejs                 # Parcial para la cabecera del documento
+│       │    └── header.ejs               # Parcial para la cabecera del sitio
+│       ├── products/ 
+│       │    ├── carrito-compra.ejs       # Página del carrito de compra
+│       │    └── detalle-producto.ejs     # Página de detalle de producto
+│       ├── users/
+│       │    ├── login.ejs                # Página de inicio de sesión
+│       │    └── registro.ejs             # Página de registro de usuario
+│       └── index.ejs                     # Página principal de la aplicación
+│ 
+├── wireframes/                 # Carpeta para los wireframes del proyecto
+├── .gitignore                  # Archivo de configuración para ignorar archivos en Git
+├── README.md                   # Archivo con información básica del proyecto
+├── Retro.md                    # Archivo para registrar retrospectivas del proyecto SPRINT2
+├── Retro3.md                   # Archivo para registrar retrospectivas del proyecto SPRINT3
+├── Daily.md                    # Archivo de registro diario
+├── app.js                      # Archivo principal de la aplicación (JavaScript)
+├── package-lock.json           # Archivo de bloqueo de versiones de paquetes (npm)
+└── package.json                # Archivo de configuración de paquetes (npm)
 ```
 
 ## 🏠 Home ```(index.html)```
