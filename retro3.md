@@ -6,7 +6,7 @@ Este documento resume la retrospectiva del equipo DronSAR al completar el tercer
 
 ## Resumen de entregables
 - Archivo ```retro.md``` con el resultado de la retrospectiva.
-- Archivo ```daily.md``` con sus opiniones sobre las daylies/weeklies. (Opcional)
+- Archivo [```daily.md```](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/Daily.md) con sus opiniones sobre las daylies/weeklies. (Opcional)
 - Tablero de trabajo actualizado.
 - Aplicación Node.js+Express+EJS con:
   - Archivos parciales (head, header, footer, etc.)
@@ -81,18 +81,21 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
 └── package.json                # Archivo de configuración de paquetes (npm)
 ```
 
-## 🏠 Home ```(index.html)```
+## 🏠 Home ```(index.ejs)```
 
   Este archivo representa la página principal de la aplicación, donde los usuarios llegan inicialmente. Contiene la estructura y el contenido principal que se muestra al cargar la aplicación.
 
-  <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/index.html">
+  <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/index.ejs">
   <img src="https://img001.prntscr.com/file/img001/IPUaKk7RRl-1cRTYUl7ixw.jpg" width="700">
   </a>
+
+### Partials
+#### ```header.ejs - head.ejs  - footer.ejs```  
   
 
 <br> <!-- Salto de línea -->
 
-## 👉 Formulario de registro ```(registro.html)```
+## 👉 Formulario de registro ```(registro.ejs)```
 
   Aquí se encuentra el formulario que los usuarios utilizan para registrarse en la aplicación. Incluye campos y validaciones necesarios para capturar la información de los nuevos usuarios.
 
@@ -101,17 +104,17 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
 </a>
 <br> <!-- Salto de línea -->
 
-## 🔐 Formulario de login ```(login.html)```
+## 🔐 Formulario de login ```(login.ejs)```
 
   Este formulario permite a los usuarios iniciar sesión en la aplicación. Es crucial para la autenticación y seguridad de los usuarios al acceder a sus cuentas personales.
 
-<a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/login.html" style="display: block; text-align: center;">
+<a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/users/login.ejs" style="display: block; text-align: center;">
   <img src="https://img001.prntscr.com/file/img001/a03TXDPhTFaD-hGDiRUWug.png" width="400">
 </a>  
 
 <br> <!-- Salto de línea -->
 
-## 🔍 Detalle del producto ```(detalle-producto.html)```
+## 🔍 Detalle del producto ```(detalle-producto.ejs)```
 
   La página de detalle del producto muestra información detallada sobre un producto específico. Esto incluye características, precios y opciones de compra, proporcionando una vista profunda para los usuarios interesados en un artículo en particular.
 
@@ -121,10 +124,14 @@ A continuacion se ofrece el enlance al Tablero de trabajo, usando la plataforma 
 
 <br> <!-- Salto de línea -->
 
-## 🛒 Carrito de compras ```(carrito-compra.html)```
+## 🛒 Carrito de compras ```(carrito-compra.ejs)```
 
   Aquí se encuentra la interfaz donde los usuarios gestionan los productos seleccionados para la compra. Permite agregar, modificar o eliminar elementos del carrito antes de proceder con la compra final.
 
   <a href="https://github.com/chavow5/Grupo_6_DronsAR/blob/main/views/carrito-compra.html">
   <img src="https://img001.prntscr.com/file/img001/6yVSObBMR8mcrgjgSxzdGw.png" width="700">
   </a>
+
+## 📑 Formulario de carga y edición de productos
+
+Este formulario proporciona una interfaz intuitiva para que los usuarios ingresen y modifiquen detalles de productos. Permite la carga inicial de nuevos productos con datos detallados como nombre, descripción, precio y categoría. Además, facilita la edición rápida y eficiente de productos existentes, asegurando que la información esté siempre actualizada y precisa para los clientes y administradores del sistema.
