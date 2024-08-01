@@ -1,167 +1,528 @@
-
 <%- include('partials/head') %>
 
-<body>
-   
-    <%- include('partials/header') %>
+    <body>
 
-    <main>
-        <section class="main-section">
-            <div class="columna-main-1">
-                <p>Drones en Alturas Riojanas</p>
-                <h1>Título</h1>
-                <button>Comprar Ahora <i class="fas fa-chevron-right"></i></button>
-                <div class="puntos-slider">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <%- include('partials/header') %>
+
+            <!-- slider section -->
+            <section class="slider_section">
+                <div class="slider_bg_box">
+                    <img src="img/dron-gif.gif" alt="GIF">
+                    <!-- <img src="img/drone-imagen-portada.png" alt=""> -->
+                </div>
+                <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-6 ">
+                                        <div class="detail-box">
+                                            <h1 class="h3" style="text-align: start;">
+                                                <span class="fs-5" style="text-align: start;">
+                                                    Sale 10% Off
+                                                </span>
+                                                <br>
+                                                En Productos Destacados
+                                            </h1>
+                                            <p style="text-align: start;">
+                                                ¡Descubre la emoción de volar con nuestro drone de última generación!
+                                                Aprovecha nuestra oferta especial del 10% de descuento en Productos
+                                                Destacados. ¡Hazte con el tuyo ahora!
+                                            </p>
+                                            <div class="btn-box">
+                                                <a href="" class="btn-secondary">
+                                                    Ver
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-6 ">
+                                        <div class="detail-box">
+                                            <h1 class="h3 text-md-start" style="text-align: start;">
+                                                <span class="fs-5" style="text-align: start;">
+                                                    Sale 10% Off
+                                                </span>
+                                                <br>
+                                                En Productos Destacados
+                                            </h1>
+                                            <p class="text-md-start" style="text-align: start;">
+                                                ¡Descubre la emoción de volar con nuestro drone de última generación!
+                                                Aprovecha nuestra oferta especial del 10% de descuento en Productos
+                                                Destacados. ¡Hazte con el tuyo ahora!
+                                            </p>
+                                            <div class="btn-box">
+                                                <a href="" class="btn btn-primary">
+                                                    Ver
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-6 ">
+                                        <div class="detail-box">
+                                            <h1 class="h3 text-md-start" style="text-align: start;">
+                                                <span class="fs-5" style="text-align: start;">
+                                                    Sale 10% Off
+                                                </span>
+                                                <br>
+                                                En Productos Destacados
+                                            </h1>
+                                            <p class="text-md-start" style="text-align: start;">
+                                                ¡Descubre la emoción de volar con nuestro drone de última generación!
+                                                Aprovecha nuestra oferta especial del 10% de descuento en Productos
+                                                Destacados. ¡Hazte con el tuyo ahora!
+                                            </p>
+                                            <div class="btn-box">
+                                                <a href="" class="btn btn-primary">
+                                                    Ver
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <ol class="carousel-indicators">
+                            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#customCarousel1" data-slide-to="1"></li>
+                            <li data-target="#customCarousel1" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <!-- end slider section -->
+
+            <!-- ***** categoria Area Starts ***** -->
+            <section class="categoria" id="categoria">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="categoria-heading">
+                                <h2>Categorias</h2>
+                                <span>Details to details is what makes Hexashop different from the other themes.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row images">
+                        <div class="col-6 col-md-4 col-lg-2 mb-4">
+                            <div class="thumb">
+                                <div class="icon">
+                                    <a href="#">
+                                        <h6>Recreativo</h6>
+                                    </a>
+                                </div>
+                                <img src="img/categoria.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-4">
+                            <div class="thumb">
+                                <div class="icon">
+                                    <a href="#">
+                                        <h6>Fotografía</h6>
+                                    </a>
+                                </div>
+                                <img src="img/categoria.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-4">
+                            <div class="thumb">
+                                <div class="icon">
+                                    <a href="#">
+                                        <h6>Carreras</h6>
+                                    </a>
+                                </div>
+                                <img src="img/categoria.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-4">
+                            <div class="thumb">
+                                <div class="icon">
+                                    <a href="#">
+                                        <h6>Agrícola</h6>
+                                    </a>
+                                </div>
+                                <img src="img/categoria.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-4">
+                            <div class="thumb">
+                                <div class="icon">
+                                    <a href="#">
+                                        <h6>Militar</h6>
+                                    </a>
+                                </div>
+                                <img src="img/categoria.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-4">
+                            <div class="thumb">
+                                <div class="icon">
+                                    <a href="#">
+                                        <h6>Comercial</h6>
+                                    </a>
+                                </div>
+                                <img src="img/categoria.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ***** categoria Area Ends ***** -->
+
+            <!-- Banner Begin -->
+            <div class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="productos-destacado-heading">
+                                <h2>Productos Destacados</h2>
+                                <span>Details to details is what makes Hexashop different from the other themes.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                            <div class="banner__pic">
+                                <img src="img/producto-destacado1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                            <div class="banner__pic">
+                                <img src="img/producto-destacado2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="columna-main-2">
-                <img src="/img/imagen-principal.png" alt="Imagen">
-            </div>
-        </section>
-        
-        <section class="categorias">
-            <div class="categoria">
-                <img src="/img/d1.png" alt="Categoría 1">
-                <h2>Categoría 1</h2>
-            </div>
-            <div class="categoria">
-                <img src="/img/d2.png" alt="Categoría 2">
-                <h2>Categoría 2</h2>
-            </div>
-            <div class="categoria">
-                <img src="/img/d3.png" alt="Categoría 3">
-                <h2>Categoría 3</h2>
-            </div>
-            <div class="categoria">
-                <img src="img/d2.png" alt="Categoría 4">
-                <h2>Categoría 4</h2>
-            </div>
-            <div class="categoria">
-                <img src="img/d1.png" alt="Categoría 5">
-                <h2>Categoría 5</h2>
-            </div>
-            <div class="categoria">
-                <img src="img/d3.png" alt="Categoría 6">
-                <h2>Categoría 6</h2>
-            </div>
-        </section>
+            <!-- Banner End -->
 
+            <!--Nuestros productos-->
 
-        <h1>Productos Destacados</h1>
-        <section class="productos-destacados">
-            <div class="producto">
-                <img src="/img/d1.png" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>$100</p>
-                <button>Comprar</button>
-            </div>
-            <div class="producto">
-                <img src="/img/fondo.jpg" alt="Producto 2">
-                <h3>Producto 2</h3>
-                <p>$150</p>
-                <button>Comprar</button>
-            </div>
-            <div class="producto">
-                <img src="/img/fondo.jpg" alt="Producto 3">
-                <h3>Producto 3</h3>
-                <p>$120</p>
-                <button>Comprar</button>
-            </div>
-        </section>
-
-        <h1>Nuestros Productos</h1>
-        <section class="productos">
-            <div class="product">
-                <img src="/img/d1.png" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>$100</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half"></i>
+            <section class="ftco-section bg-light">
+                <div class="container">
+                    <div class="row justify-content-center mb-3 pb-3">
+                        <div class="col-md-12 heading-section text-center ftco-animate">
+                            <h2 class="mb-4">Nuestros Productos</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <button class="add-to-cart">Agregar al carrito</button>
-            </div>
-
-            <div class="product">
-                <img src="/img/d3.png" alt="Producto 2">
-                <h3>Producto 2</h3>
-                <p>$100</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar01.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="mr-2 price-dc">$120.00</span><span
+                                                            class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar02.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar03.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar04.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar05.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar06.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar01.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                                    <div class="product">
+                                        <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar02.png"
+                                                alt="Colorlib Template">
+                                            <span class="status">30%</span>
+                                            <div class="overlay"></div>
+                                        </a>
+                                        <div class="text py-3 px-3">
+                                            <h3><a href="#">Inspire 2</a></h3>
+                                            <div class="d-flex">
+                                                <div class="pricing">
+                                                    <p class="price"><span class="price-sale">$80.00</span></p>
+                                                </div>
+                                                <div class="rating">
+                                                    <p class="text-right">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="bottom-area d-flex px-3">
+                                                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a
+                                                        Carrito
+                                                        <i class="ion-ios-add ml-1"></i></span></a>
+                                                <a href="#" class="buy-now text-center py-2">Comprar<span><i
+                                                            class="ion-ios-cart ml-1"></i></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button class="add-to-cart">Agregar al carrito</button>
-            </div>
-            <div class="product">
-                <img src="/img/d2.png" alt="Producto 3">
-                <h3>Producto 3</h3>
-                <p>$100</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <button class="add-to-cart">Agregar al carrito</button>
-            </div>
-            <div class="product">
-                <img src="/img/d2.png" alt="Producto 4">
-                <h3>Producto 4</h3>
-                <p>$100</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half"></i>
-                </div>
-                <button class="add-to-cart">Agregar al carrito</button>
-            </div>
-            <div class="product">
-                <img src="/img/d3.png" alt="Producto 5">
-                <h3>Producto 5</h3>
-                <p>$100</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <button class="add-to-cart">Agregar al carrito</button>
-            </div>
-            <div class="product">
-                <img src="/img/d1.png" alt="Producto 6">
-                <h3>Producto 6</h3>
-                <p>$100</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half"></i>
-                </div>
-                <button class="add-to-cart">Agregar al carrito</button>
-            </div>
-        </section>
+            </section>
 
-        <%- include('partials/footer') %>
-        
 
-    </main>
+            <!---->
+
+
+            <%- include('partials/footer') %>
 
 
 
-</body>
+                <script>
+                    const follower = document.querySelector('.slider_bg_box img');
+                    const divSlider = document.querySelector('.slider_section');
+                    const categoriaElements = document.querySelectorAll('.categoria');
 
-</html>
+                    const defaultTop = 200;
+                    const defaultLeft = 700;
+
+                    follower.style.top = defaultTop + 'px';
+                    follower.style.left = defaultLeft + 'px';
+                </script>
+
+
+                <%- include('partials/script') %>
+
+    </body>
+
+    </html>
