@@ -1216,6 +1216,16 @@ header .navbar-nav li a:hover {
   margin-top: 15px;
 }
 
+.product_slider_img {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.product_slider_img img {
+  max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
 /* End Single Product Area css
 ============================================================================================ */
 /* Cart Area css

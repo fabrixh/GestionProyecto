@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(methodOverride("_method"));
 
-
+const port = process.env.PORT ?? 3000;
 
 app.get('/', (req, res) => {
     res.render('index');
@@ -41,6 +41,16 @@ app.use((req, res) => {
     res.status(404).render("not-found");
   });
 
-app.listen(3000, () => {
-    console.log("Servidor corriendo en puerto 3000");
-});
+  app.listen(port, (err) =>
+    console.log(
+      err
+        ? `Server failed to launch: ${err.message}`
+        : `
+  ------------------------------------------
+  Server running on http://127.0.0.1:${port}
+  
+  CTRL + C to cancel...
+  ------------------------------------------
+  `
+    )
+  );

@@ -1,97 +1,105 @@
 <%- include('../partials/head') %>
 
 
-    <body>
-        <%- include('../partials/header') %>
+  <body>
+    <%- include('../partials/header') %>
 
 
-            <!-- Page Header Start -->
-            <div class="container-fluid bg-secondary mb-5" id="portada-backgound">
-                <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
-                    <h1 class="font-weight-bold text-uppercase mb-3">Detalle Producto</h1>
-                    <div class="d-inline-flex">
-                        <p class="m-0"><a href="">Home</a></p>
-                        <p class="m-0 px-2">-</p>
-                        <p class="m-0">Detalles del Producto</p>
-                    </div>
+      <!-- Page Header Start -->
+      <div class="container-fluid bg-secondary mb-5" id="portada-backgound">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+          <h1 class="font-weight-bold text-uppercase mb-3">Detalle Producto</h1>
+          <div class="d-inline-flex">
+            <p class="m-0"><a href="/">Home</a></p>
+            <p class="m-0 px-2">-</p>
+            <p class="m-0">Detalles del Producto</p>
+          </div>
+        </div>
+      </div>
+      <!-- Page Header End -->
+
+      <!--================Single Product Area =================-->
+      <div class="product_image_area section_padding">
+        <div class="container">
+          <div class="row s_product_inner justify-content-between">
+            <div class="col-lg-7 col-xl-7">
+              <div class="product_slider_img text-center"> <!-- Se añade la clase text-center -->
+                <div id="vertical">
+                  <!-- Imagen principal -->
+                  <div data-thumb="img/d2.png">
+                    <img src="img/d2.png" class="img-fluid" /> <!-- Añadido class img-fluid para responsividad -->
+                  </div>
                 </div>
+              </div>
+              <!-- Imágenes pequeñas debajo 
+              <div class="small_images">
+                  <div data-thumb="img/d2.png">
+                      <img src="img/d2.png" />
+                  </div>
+                  <div data-thumb="img/d2.png">
+                      <img src="img/d2.png" />
+                  </div>
+                  <div data-thumb="img/d2.png">
+                      <img src="img/d2.png" />
+                  </div>
+                  <div data-thumb="img/d2.png">
+                      <img src="img/d2.png" />
+                  </div>
+              </div>
+              -->
             </div>
-            <!-- Page Header End -->
-
-            <!--================Single Product Area =================-->
-            <div class="product_image_area section_padding">
-                <div class="container">
-                    <div class="row s_product_inner justify-content-between">
-                        <div class="col-lg-7 col-xl-7">
-                            <div class="product_slider_img">
-                                <div id="vertical">
-                                    <div data-thumb="img/d2.png">
-                                        <img src="img/d2.png" />
-                                    </div>
-                                    <div data-thumb="img/d2.png">
-                                        <img src="img/d2.png" />
-                                    </div>
-                                    <div data-thumb="img/d2.png">
-                                        <img src="img/d2.png" />
-                                    </div>
-                                    <div data-thumb="img/d2.png">
-                                        <img src="img/d2.png" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-xl-4">
-                            <div class="s_product_text">
-                                <h3>Empire 2</h3>
-                                <h2>$149.99</h2>
-                                <ul class="list">
-                                    <li>
-                                        <a class="active" href="#">
-                                            <span>Categoria:</span> valor categoria</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <span>Velocidad:</span> Valor velocidad</a>
-                                    </li>
-                                    <li>
-                                      <a href="#"> <span>Peso:</span> Valor peso</a>
-                                  </li>
-                                  <li>
-                                    <a href="#"> <span>Tamaño:</span> Valor tamaño</a>
-                                </li>
-                                </ul>
-                                <p>
-                                    First replenish living. Creepeth image image. Creeping can't, won't called.
-                                    Two fruitful let days signs sea together all land fly subdue
-                                </p>
-                                <div class="card_area d-flex justify-content-between align-items-center">
-                                    <div class="product_count">
-                                        <span class="inumber-decrement"> <i class="ti-minus"></i></span>
-                                        <input class="input-number" type="text" value="1" min="0" max="10">
-                                        <span class="number-increment"> <i class="ti-plus"></i></span>
-                                    </div>
-                                    <a href="#" class="btn_3">añadir a <i class="fas fa-cart-plus"></i></a>
-                                    <a href="#" class="like_us"> <i class="ti-heart"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-5 col-xl-4">
+              <div class="s_product_text">
+                <h3>Empire 2</h3>
+                <h2>$149.99</h2>
+                <ul class="list">
+                  <li>
+                    <a class="active" href="#">
+                      <span>Categoria:</span> valor categoria</a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>Velocidad:</span> Valor velocidad</a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>Peso:</span> Valor peso</a>
+                  </li>
+                  <li>
+                    <a href="#"> <span>Tamaño:</span> Valor tamaño</a>
+                  </li>
+                </ul>
+                <p>
+                  First replenish living. Creepeth image image. Creeping can't, won't called.
+                  Two fruitful let days signs sea together all land fly subdue
+                </p>
+                <div class="card_area d-flex justify-content-between align-items-center">
+                  <div class="product_count">
+                    <span class="inumber-decrement"> <i class="ti-minus"></i></span>
+                    <input class="input-number" type="text" value="1" min="0" max="10">
+                    <span class="number-increment"> <i class="ti-plus"></i></span>
+                  </div>
+                  <a href="#" class="btn_3">añadir a <i class="fas fa-cart-plus"></i></a>
+                  <a href="#" class="like_us"> <i class="ti-heart"></i> </a>
                 </div>
+              </div>
             </div>
-            <!--================End Single Product Area =================-->
+          </div>
+        </div>
+      </div>
+      <!--================End Single Product Area =================-->
 
-            <!--================Product Description Area =================-->
-  <section class="product_description_area">
-    <div class="container">
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-            aria-selected="true">Descripción</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-            aria-selected="false">Especificaciones</a>
-        </li>
-        <!--
+      <!--================Product Description Area =================-->
+      <section class="product_description_area">
+        <div class="container">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true">Descripción</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">Especificaciones</a>
+            </li>
+            <!--
         <li class="nav-item">
           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
             aria-selected="false">Comments</a>
@@ -101,537 +109,548 @@
             aria-selected="false">Reviews</a>
         </li>
         -->
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <p>
-            Beryl Cook is one of Britain’s most talented and amusing artists
-            .Beryl’s pictures feature women of all shapes and sizes enjoying
-            themselves .Born between the two world wars, Beryl Cook eventually
-            left Kendrick School in Reading at the age of 15, where she went
-            to secretarial school and then into an insurance office. After
-            moving to London and then Hampton, she eventually married her next
-            door neighbour from Reading, John Cook. He was an officer in the
-            Merchant Navy and after he left the sea in 1956, they bought a pub
-            for a year before John took a job in Southern Rhodesia with a
-            motor company. Beryl bought their young son a box of watercolours,
-            and when showing him how to use it, she decided that she herself
-            quite enjoyed painting. John subsequently bought her a child’s
-            painting set for her birthday and it was with this that she
-            produced her first significant work, a half-length portrait of a
-            dark-skinned lady with a vacant expression and large drooping
-            breasts. It was aptly named ‘Hangover’ by Beryl’s husband and
-          </p>
-        </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <div class="table-responsive">
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td>
-                    <h5>Marca</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Modelo</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Categoria</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Peso</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Duración Bateria</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Camara</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                
-                <tr>
-                  <td>
-                    <h5>Tipo de sensor</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Altura</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h5>Velocidad</h5>
-                  </td>
-                  <td>
-                    <h5>valor</h5>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="comment_list">
-                <div class="review_item">
-                  <div class="media">
-                    <div class="d-flex">
-                      <img src="img/product/single-product/review-1.png" alt="" />
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <p>
+                Beryl Cook is one of Britain’s most talented and amusing artists
+                .Beryl’s pictures feature women of all shapes and sizes enjoying
+                themselves .Born between the two world wars, Beryl Cook eventually
+                left Kendrick School in Reading at the age of 15, where she went
+                to secretarial school and then into an insurance office. After
+                moving to London and then Hampton, she eventually married her next
+                door neighbour from Reading, John Cook. He was an officer in the
+                Merchant Navy and after he left the sea in 1956, they bought a pub
+                for a year before John took a job in Southern Rhodesia with a
+                motor company. Beryl bought their young son a box of watercolours,
+                and when showing him how to use it, she decided that she herself
+                quite enjoyed painting. John subsequently bought her a child’s
+                painting set for her birthday and it was with this that she
+                produced her first significant work, a half-length portrait of a
+                dark-skinned lady with a vacant expression and large drooping
+                breasts. It was aptly named ‘Hangover’ by Beryl’s husband and
+              </p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <h5>Marca</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Modelo</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Categoria</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Peso</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Duración Bateria</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Camara</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <h5>Tipo de sensor</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Altura</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Velocidad</h5>
+                      </td>
+                      <td>
+                        <h5>valor</h5>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="comment_list">
+                    <div class="review_item">
+                      <div class="media">
+                        <div class="d-flex">
+                          <img src="img/product/single-product/review-1.png" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <h4>Blake Ruiz</h4>
+                          <h5>12th Feb, 2017 at 05:56 pm</h5>
+                          <a class="reply_btn" href="#">Reply</a>
+                        </div>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
                     </div>
-                    <div class="media-body">
-                      <h4>Blake Ruiz</h4>
-                      <h5>12th Feb, 2017 at 05:56 pm</h5>
-                      <a class="reply_btn" href="#">Reply</a>
+                    <div class="review_item reply">
+                      <div class="media">
+                        <div class="d-flex">
+                          <img src="img/product/single-product/review-2.png" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <h4>Blake Ruiz</h4>
+                          <h5>12th Feb, 2017 at 05:56 pm</h5>
+                          <a class="reply_btn" href="#">Reply</a>
+                        </div>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
+                    </div>
+                    <div class="review_item">
+                      <div class="media">
+                        <div class="d-flex">
+                          <img src="img/product/single-product/review-3.png" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <h4>Blake Ruiz</h4>
+                          <h5>12th Feb, 2017 at 05:56 pm</h5>
+                          <a class="reply_btn" href="#">Reply</a>
+                        </div>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
                     </div>
                   </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
-                  </p>
                 </div>
-                <div class="review_item reply">
-                  <div class="media">
-                    <div class="d-flex">
-                      <img src="img/product/single-product/review-2.png" alt="" />
-                    </div>
-                    <div class="media-body">
-                      <h4>Blake Ruiz</h4>
-                      <h5>12th Feb, 2017 at 05:56 pm</h5>
-                      <a class="reply_btn" href="#">Reply</a>
-                    </div>
+                <div class="col-lg-6">
+                  <div class="review_box">
+                    <h4>Post a comment</h4>
+                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+                      novalidate="novalidate">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Your Full name" />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Email Address" />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="number" name="number"
+                            placeholder="Phone Number" />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" id="message" rows="1"
+                            placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12 text-right">
+                        <button type="submit" value="submit" class="btn_3">
+                          Submit Now
+                        </button>
+                      </div>
+                    </form>
                   </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
-                  </p>
-                </div>
-                <div class="review_item">
-                  <div class="media">
-                    <div class="d-flex">
-                      <img src="img/product/single-product/review-3.png" alt="" />
-                    </div>
-                    <div class="media-body">
-                      <h4>Blake Ruiz</h4>
-                      <h5>12th Feb, 2017 at 05:56 pm</h5>
-                      <a class="reply_btn" href="#">Reply</a>
-                    </div>
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
-                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="review_box">
-                <h4>Post a comment</h4>
-                <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
-                  novalidate="novalidate">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Full name" />
+            <div class="tab-pane fade show" id="review" role="tabpanel" aria-labelledby="review-tab">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row total_rate">
+                    <div class="col-6">
+                      <div class="box_total">
+                        <h5>Overall</h5>
+                        <h4>4.0</h4>
+                        <h6>(03 Reviews)</h6>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="rating_list">
+                        <h3>Based on 3 Reviews</h3>
+                        <ul class="list">
+                          <li>
+                            <a href="#">5 Star
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i> 01</a>
+                          </li>
+                          <li>
+                            <a href="#">4 Star
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i> 01</a>
+                          </li>
+                          <li>
+                            <a href="#">3 Star
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i> 01</a>
+                          </li>
+                          <li>
+                            <a href="#">2 Star
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i> 01</a>
+                          </li>
+                          <li>
+                            <a href="#">1 Star
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i> 01</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" />
+                  <div class="review_list">
+                    <div class="review_item">
+                      <div class="media">
+                        <div class="d-flex">
+                          <img src="img/product/single-product/review-1.png" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <h4>Blake Ruiz</h4>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
                     </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="number" name="number" placeholder="Phone Number" />
+                    <div class="review_item">
+                      <div class="media">
+                        <div class="d-flex">
+                          <img src="img/product/single-product/review-2.png" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <h4>Blake Ruiz</h4>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
                     </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" id="message" rows="1"
-                        placeholder="Message"></textarea>
+                    <div class="review_item">
+                      <div class="media">
+                        <div class="d-flex">
+                          <img src="img/product/single-product/review-3.png" alt="" />
+                        </div>
+                        <div class="media-body">
+                          <h4>Blake Ruiz</h4>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo
+                      </p>
                     </div>
-                  </div>
-                  <div class="col-md-12 text-right">
-                    <button type="submit" value="submit" class="btn_3">
-                      Submit Now
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade show" id="review" role="tabpanel" aria-labelledby="review-tab">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="row total_rate">
-                <div class="col-6">
-                  <div class="box_total">
-                    <h5>Overall</h5>
-                    <h4>4.0</h4>
-                    <h6>(03 Reviews)</h6>
                   </div>
                 </div>
-                <div class="col-6">
-                  <div class="rating_list">
-                    <h3>Based on 3 Reviews</h3>
+                <div class="col-lg-6">
+                  <div class="review_box">
+                    <h4>Add a Review</h4>
+                    <p>Your Rating:</p>
                     <ul class="list">
                       <li>
-                        <a href="#">5 Star
+                        <a href="#">
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i> 01</a>
+                        </a>
                       </li>
                       <li>
-                        <a href="#">4 Star
+                        <a href="#">
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i> 01</a>
+                        </a>
                       </li>
                       <li>
-                        <a href="#">3 Star
+                        <a href="#">
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i> 01</a>
+                        </a>
                       </li>
                       <li>
-                        <a href="#">2 Star
+                        <a href="#">
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i> 01</a>
+                        </a>
                       </li>
                       <li>
-                        <a href="#">1 Star
+                        <a href="#">
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i> 01</a>
+                        </a>
                       </li>
                     </ul>
+                    <p>Outstanding</p>
+                    <form class="row contact_form" action="contact_process.php" method="post" novalidate="novalidate">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="name" placeholder="Your Full name" />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" placeholder="Email Address" />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="number" placeholder="Phone Number" />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" rows="1" placeholder="Review"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12 text-right">
+                        <button type="submit" value="submit" class="btn_3">
+                          Submit Now
+                        </button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
-              <div class="review_list">
-                <div class="review_item">
-                  <div class="media">
-                    <div class="d-flex">
-                      <img src="img/product/single-product/review-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--================End Product Description Area =================-->
+
+      <!--================Start Productos Relacionados =================-->
+
+      <div class="ftco-section bg-light" id="producto-relacionado">
+        <div class="container">
+          <div class="row justify-content-center mb-3 pb-3">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+              <h2 class="mb-4">Productos Relacionados</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
+              <div class="product">
+                <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar01.png" alt="Colorlib Template">
+                  <span class="status">30%</span>
+                  <div class="overlay"></div>
+                </a>
+                <div class="text py-3 px-3">
+                  <h3><a href="#">Inspire 1</a></h3>
+                  <div class="d-flex">
+                    <div class="pricing">
+                      <p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span>
+                      </p>
                     </div>
-                    <div class="media-body">
-                      <h4>Blake Ruiz</h4>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
-                  </p>
-                </div>
-                <div class="review_item">
-                  <div class="media">
-                    <div class="d-flex">
-                      <img src="img/product/single-product/review-2.png" alt="" />
-                    </div>
-                    <div class="media-body">
-                      <h4>Blake Ruiz</h4>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
-                  </p>
-                </div>
-                <div class="review_item">
-                  <div class="media">
-                    <div class="d-flex">
-                      <img src="img/product/single-product/review-3.png" alt="" />
-                    </div>
-                    <div class="media-body">
-                      <h4>Blake Ruiz</h4>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
+                    <div class="rating">
+                      <p class="text-right">
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                      </p>
                     </div>
                   </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo
+                  <p class="bottom-area d-flex px-3">
+                    <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i
+                          class="ion-ios-add ml-1"></i></span></a>
+                    <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i
+                          class="ion-ios-cart ml-1"></i></span></a>
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="review_box">
-                <h4>Add a Review</h4>
-                <p>Your Rating:</p>
-                <ul class="list">
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-star"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-star"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-star"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-star"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-star"></i>
-                    </a>
-                  </li>
-                </ul>
-                <p>Outstanding</p>
-                <form class="row contact_form" action="contact_process.php" method="post" novalidate="novalidate">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="name" placeholder="Your Full name" />
+            <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
+              <div class="product">
+                <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar02.png" alt="Colorlib Template">
+                  <div class="overlay"></div>
+                </a>
+                <div class="text py-3 px-3">
+                  <h3><a href="#">Inspire 1</a></h3>
+                  <div class="d-flex">
+                    <div class="pricing">
+                      <p class="price"><span>$120.00</span></p>
+                    </div>
+                    <div class="rating">
+                      <p class="text-right">
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                      </p>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="email" class="form-control" name="email" placeholder="Email Address" />
+                  <p class="bottom-area d-flex px-3">
+                    <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i
+                          class="ion-ios-add ml-1"></i></span></a>
+                    <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i
+                          class="ion-ios-cart ml-1"></i></span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
+              <div class="product">
+                <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar03.png" alt="Colorlib Template">
+                  <div class="overlay"></div>
+                </a>
+                <div class="text py-3 px-3">
+                  <h3><a href="#">Inspire 3</a></h3>
+                  <div class="d-flex">
+                    <div class="pricing">
+                      <p class="price"><span>$120.00</span></p>
+                    </div>
+                    <div class="rating">
+                      <p class="text-right">
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                      </p>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="number" placeholder="Phone Number" />
+                  <p class="bottom-area d-flex px-3">
+                    <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i
+                          class="ion-ios-add ml-1"></i></span></a>
+                    <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i
+                          class="ion-ios-cart ml-1"></i></span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
+              <div class="product">
+                <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar04.png" alt="Colorlib Template">
+                  <div class="overlay"></div>
+                </a>
+                <div class="text py-3 px-3">
+                  <h3><a href="#">Inspire 4</a></h3>
+                  <div class="d-flex">
+                    <div class="pricing">
+                      <p class="price"><span>$120.00</span></p>
+                    </div>
+                    <div class="rating">
+                      <p class="text-right">
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                      </p>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" rows="1" placeholder="Review"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12 text-right">
-                    <button type="submit" value="submit" class="btn_3">
-                      Submit Now
-                    </button>
-                  </div>
-                </form>
+                  <p class="bottom-area d-flex px-3">
+                    <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i
+                          class="ion-ios-add ml-1"></i></span></a>
+                    <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i
+                          class="ion-ios-cart ml-1"></i></span></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--================End Product Description Area =================-->
-
-  <!--================Start Productos Relacionados =================-->
-
-  <div class="ftco-section bg-light" id="producto-relacionado">
-    <div class="container">
-      <div class="row justify-content-center mb-3 pb-3">
-        <div class="col-md-12 heading-section text-center ftco-animate">
-          <h2 class="mb-4">Productos Relacionados</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>   		
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
-          <div class="product">
-            <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar01.png" alt="Colorlib Template">
-              <span class="status">30%</span>
-              <div class="overlay"></div>
-            </a>
-            <div class="text py-3 px-3">
-              <h3><a href="#">Inspire 1</a></h3>
-              <div class="d-flex">
-                <div class="pricing">
-                  <p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
-                </div>
-                <div class="rating">
-                  <p class="text-right">
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                  </p>
-                </div>
-              </div>
-              <p class="bottom-area d-flex px-3">
-                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i class="ion-ios-add ml-1"></i></span></a>
-                <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i class="ion-ios-cart ml-1"></i></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
-          <div class="product">
-            <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar02.png" alt="Colorlib Template">
-              <div class="overlay"></div>
-            </a>
-            <div class="text py-3 px-3">
-              <h3><a href="#">Inspire 1</a></h3>
-              <div class="d-flex">
-                <div class="pricing">
-                  <p class="price"><span>$120.00</span></p>
-                </div>
-                <div class="rating">
-                  <p class="text-right">
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                  </p>
-                </div>
-              </div>
-              <p class="bottom-area d-flex px-3">
-                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i class="ion-ios-add ml-1"></i></span></a>
-                <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i class="ion-ios-cart ml-1"></i></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
-          <div class="product">
-            <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar03.png" alt="Colorlib Template">
-              <div class="overlay"></div>
-            </a>
-            <div class="text py-3 px-3">
-              <h3><a href="#">Inspire 3</a></h3>
-              <div class="d-flex">
-                <div class="pricing">
-                  <p class="price"><span>$120.00</span></p>
-                </div>
-                <div class="rating">
-                  <p class="text-right">
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                  </p>
-                </div>
-              </div>
-              <p class="bottom-area d-flex px-3">
-                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i class="ion-ios-add ml-1"></i></span></a>
-                <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i class="ion-ios-cart ml-1"></i></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 ftco-animate">
-          <div class="product">
-            <a href="#" class="img-prod"><img class="img-fluid" src="img/dronsar04.png" alt="Colorlib Template">
-              <div class="overlay"></div>
-            </a>
-            <div class="text py-3 px-3">
-              <h3><a href="#">Inspire 4</a></h3>
-              <div class="d-flex">
-                <div class="pricing">
-                  <p class="price"><span>$120.00</span></p>
-                </div>
-                <div class="rating">
-                  <p class="text-right">
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                  </p>
-                </div>
-              </div>
-              <p class="bottom-area d-flex px-3">
-                <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Añadir a carrito <i class="ion-ios-add ml-1"></i></span></a>
-                <a href="#" class="buy-now text-center py-2">Comprar ahora<span><i class="ion-ios-cart ml-1"></i></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--================End Productos Relacionados =================-->
+      <!--================End Productos Relacionados =================-->
 
 
 
-            <%- include('../partials/footer') %>
+      <%- include('../partials/footer') %>
 
 
 
-                <%- include('../partials/script') %>
+        <%- include('../partials/script') %>
 
-    </body>
+  </body>
 
-    </html>
+  </html>
