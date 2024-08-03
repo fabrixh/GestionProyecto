@@ -10,8 +10,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a> <!-- Cambiado de "Services" a "Productos" -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="productosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Productos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="productosDropdown">
+                    <a class="dropdown-item" href="#">Submenú 1</a>
+                    <a class="dropdown-item" href="#">Submenú 2</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -20,7 +26,6 @@
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-        <!-- Los íconos estarán aquí en el modo escritorio -->
         <div class="icons d-none d-lg-flex ml-auto">
             <a href="#" class="icon">
                 <i class="fas fa-search"></i>
@@ -28,13 +33,12 @@
             <a href="/login" class="icon">
                 <i class="fas fa-user"></i>
             </a>
-            <a href="/carrito-compra" class="icon">
+            <a href="/carrito-compra" class="icon" id="icon-carrito">
                 <i class="fas fa-shopping-cart">
                     <span class="badge badge-light">3</span>
                 </i>
             </a>
         </div>
-        <!-- Los íconos móviles estarán aquí en el menú desplegable -->
         <div class="d-lg-none">
             <div class="icons-mobile text-center mt-3">
                 <a href="#" class="icon">
@@ -43,7 +47,7 @@
                 <a href="#" class="icon">
                     <i class="fas fa-user"></i>
                 </a>
-                <a href="#" class="icon">
+                <a href="#" class="icon" id="icon-carrito">
                     <i class="fas fa-shopping-cart">
                         <span class="badge badge-light">3</span>
                     </i>

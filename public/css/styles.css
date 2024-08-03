@@ -10,23 +10,24 @@ body {
 /* Estilos para el header y el menú */
 header {
   z-index: 999;
-  background: linear-gradient(to right, #9acfe4, #bccbdf); /* Fondo con gradiente */
-  backdrop-filter: blur(10px); /* Difuminar el fondo detrás del header */
-  color: #000; /* Asegurarse de que el texto en el header sea negro para contraste */
+  background: linear-gradient(to right, #9acfe4, #bccbdf);
+  backdrop-filter: blur(10px);
+  color: #000;
 }
 
 header .navbar-nav .nav-link {
-  color: #000; /* Cambiar el color del texto del enlace a negro */
+  color: #000;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 16px;
   padding: 7px 12px;
-  border-radius: 20px;
 }
+
+
 
 /* Añadir más espacio entre los ítems del menú */
 header .navbar-nav .nav-item {
-  margin: 0 25px; /* Aumentar el margen horizontal entre los ítems */
+  margin: 0 25px;
 }
 
 header .navbar-nav li a {
@@ -40,12 +41,12 @@ header .navbar-nav li a:hover {
 /* Estilos para el botón del menú hamburguesa */
 .navbar-toggler {
   color: #000 !important;
-  border: none; /* Eliminar el borde del botón */
-  background: black; /* Fondo negro para el botón */
+  border: none;
+  background: black;
 }
 
 .navbar-toggler-icon {
-  color: #fff; /* Color blanco para el ícono del botón hamburguesa */
+  color: #fff;
 }
 
 /* Estilos para los íconos */
@@ -55,10 +56,23 @@ header .navbar-nav li a:hover {
 }
 
 .icon {
-  color: #000; /* Cambiar el color del ícono a negro */
+  color: #000;
   font-size: 20px;
   margin: 0 10px;
   position: relative;
+}
+
+#icon-carrito {
+  color: #000;
+  padding: 5px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon .badge {
@@ -78,25 +92,26 @@ header .navbar-nav li a:hover {
     padding: 10px 20px;
   }
   .icons {
-    display: flex; /* Mostrar íconos en el modo escritorio */
+    display: flex;
   }
+  
   .icons-mobile {
-    display: none; /* Ocultar íconos móviles por defecto */
+    display: none;
   }
   .navbar-collapse {
-    padding: 20px; /* Ajustar el padding en el menú desplegable */
+    padding: 20px;
   }
   .navbar-nav {
-    flex-direction: column; /* Alinear los enlaces del menú en columna */
-    width: 100%; /* Hacer que el menú ocupe todo el ancho */
+    flex-direction: column;
+    width: 100%;
   }
   .navbar-nav .nav-item {
-    margin: 10px 0; /* Ajustar el margen entre los elementos del menú */
+    margin: 10px 0;
   }
   .navbar-collapse.show .icons-mobile {
-    display: flex; /* Mostrar íconos móviles cuando el menú está desplegado */
-    justify-content: center; /* Centrar los íconos */
-    margin-top: 20px; /* Ajustar el margen superior */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
   }
 }
 
@@ -107,6 +122,44 @@ header .navbar-nav li a:hover {
   }
 }
 
+/* Estilos para los sub-menús */
+.dropdown-menu {
+  background-color: #bccbdf; /* Color de fondo para el submenú */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.dropdown-item {
+  color: #000; /* Color del texto de los elementos del submenú */
+  font-size: 14px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s; /* Transición para el fondo y el color */
+}
+
+.dropdown-item:hover {
+  background-color: #F55264; /* Color de fondo al pasar el cursor */
+  color: #fff; /* Color del texto al pasar el cursor */
+}
+
+/* Estilos específicos para eliminar los bordes */
+.nav-item .nav-link.dropdown-toggle{
+  border: none !important; /* Elimina el borde por defecto */
+}
+
+.nav-item .nav-link.dropdown-toggle:hover {
+  border: none !important; /* Asegúrate de que no haya borde al hacer hover */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  border: none !important; /* Elimina el borde en el hover de los elementos del submenú */
+  background-color: #f8f9fa !important; /* Cambia el color de fondo si lo deseas */
+}
+
+/* Si también quieres eliminar el contorno */
+.dropdown-menu .dropdown-item:focus {
+  outline: none !important; /* Elimina el contorno en el foco */
+}
+
+/*fin header*/
   
 
 /*estilos portada principal*/
