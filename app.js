@@ -4,7 +4,7 @@ const app = express();
 
 const methodOverride = require("method-override");
 //project modules
-const movieRouter = require("./routes/dron.js");
+const dronRouter = require("./routes/dron.js");
 
 // Definir la ubicación de los archivos estáticos
 app.use(express.static('public'));
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(methodOverride("_method"));
 
-const port = process.env.PORT ?? 3000;
+const port = process.env.PORT ?? 3001;
 
 app.get('/', (req, res) => {
     res.render('index');
@@ -37,9 +37,13 @@ app.get('/carrito-compra', (req, res) => {
     res.render('products/carrito-compra');
 });
 
+// Incluir las rutas del controlador de drones
+app.use('/productos', dronRouter);
+
 app.use((req, res) => {
     res.status(404).render("not-found");
   });
+
 
   app.listen(port, (err) =>
     console.log(
