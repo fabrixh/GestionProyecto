@@ -270,5 +270,22 @@
     "velocidad": "500kxh",
     "descuento": 50,
     "image": "/img/productsImg/dron-ebf059e21ff90746.png"
+  },
+  {
+    "id": "1e1319ce-ffc9-4203-96e6-d3fa6b29d24f",
+    "nombre": "asd",
+    "marca": "adsd",
+    "modelo": "asdas",
+    "descripcion": "adsas",
+    "categoria": "Consumer",
+    "precio": 1000,
+    "peso": "500g",
+    "duracionBateria": "1hora",
+    "camara": "camara 4k",
+    "tipoSensores": "tipo1",
+    "altura": "500 mts",
+    "velocidad": "500kxh",
+    "descuento": 10,
+    "image": "/img/productsImg/dron-e931e418d3b63496.png"
   }
 ]
