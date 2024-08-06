@@ -253,5 +253,22 @@
     "velocidad": "500kxh",
     "descuento": 10,
     "image": "/img/productsImg/default.jpg"
+  },
+  {
+    "id": "182c3b00-89ac-4557-a165-d6904a58b60d",
+    "nombre": "nombre6",
+    "marca": "merca6",
+    "modelo": "model6",
+    "descripcion": "desc6",
+    "categoria": "Consumer",
+    "precio": 10000,
+    "peso": "500g",
+    "duracionBateria": "1hora",
+    "camara": "camara 4k",
+    "tipoSensores": "tipo1",
+    "altura": "500 mts",
+    "velocidad": "500kxh",
+    "descuento": 50,
+    "image": "/img/productsImg/dron-ebf059e21ff90746.png"
   }
 ]

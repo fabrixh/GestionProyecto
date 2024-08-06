@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(methodOverride("_method"));
 
-const port = process.env.PORT ?? 3001;
+const port = process.env.PORT ?? 3000;
 
 app.get('/', (req, res) => {
     res.render('index');
