@@ -952,6 +952,28 @@ header .navbar-nav li a:hover {
   color: #fff;
 }
 
+.btn_4 {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: #ff3368;
+  border: 1px solid #ecfdff;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  border: 1px solid #ff3368;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn_4:hover {
+  background-color: red;
+  color: #fff;
+}
+
 
 /* line 2042, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_product.scss */
 .s_product_text .btn_3 {

@@ -265,45 +265,36 @@
   }
 // click counter js
 (function() {
- 
   window.inputNumber = function(el) {
+      var min = el.attr('min') || false;
+      var max = el.attr('max') || false;
 
-    var min = el.attr('min') || false;
-    var max = el.attr('max') || false;
+      // Asignar eventos a los botones de incremento y decremento
+      el.each(function() {
+          var input = $(this);
+          var dec = input.prev('.inumber-decrement');
+          var inc = input.next('.number-increment');
 
-    var els = {};
+          dec.on('click', function() {
+              var value = parseInt(input.val());
+              value--;
+              if (!min || value >= min) {
+                  input.val(value);
+              }
+          });
 
-    els.dec = el.prev();
-    els.inc = el.next();
-
-    el.each(function() {
-      init($(this));
-    });
-
-    function init(el) {
-
-      els.dec.on('click', decrement);
-      els.inc.on('click', increment);
-
-      function decrement() {
-        var value = el[0].value;
-        value--;
-        if(!min || value >= min) {
-          el[0].value = value;
-        }
-      }
-
-      function increment() {
-        var value = el[0].value;
-        value++;
-        if(!max || value <= max) {
-          el[0].value = value++;
-        }
-      }
-    }
+          inc.on('click', function() {
+              var value = parseInt(input.val());
+              value++;
+              if (!max || value <= max) {
+                  input.val(value);
+              }
+          });
+      });
   }
 })();
 
+// Inicializar la función
 inputNumber($('.input-number'));
 
 
