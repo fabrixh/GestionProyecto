@@ -10,6 +10,6 @@ router.post('/agregar', fileUpload.single('image'), dronController.createOne);
 router.get('/:id', dronController.getProductoById); // Mostrar detalles de un producto
 router.get('/editar/:id', dronController.getEditForm); // Mostrar formulario de edición
 router.put('/editar/:id', dronController.updateOne.bind(dronController));
-router.post('/dron/delete/:id', dronController.eliminarProducto); // Eliminar un producto
+router.post('/delete/:id', dronController.eliminarProducto); // Eliminar un producto
 
 module.exports = router;

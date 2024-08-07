@@ -290,7 +290,7 @@
   },
   {
     "id": "03c33015-d090-45a8-8a68-3f1b77e614a1",
-    "nombre": "nombre9",
+    "nombre": "nombre10",
     "marca": "asd",
     "modelo": "fdse",
     "descripcion": "ewfwef",
@@ -304,22 +304,5 @@
     "velocidad": "500kxh",
     "descuento": 99,
     "image": "/img/productsImg/dron-8ab469c384a59f75.png"
-  },
-  {
-    "id": "9b59f445-d2a3-4e8b-b6ff-add69faf338b",
-    "nombre": "nombre10",
-    "marca": "marca10",
-    "modelo": "model10",
-    "descripcion": "desc10",
-    "categoria": "Consumer",
-    "precio": 1000,
-    "peso": "500g",
-    "duracionBateria": "1hora",
-    "camara": "camara 4k",
-    "tipoSensores": "tipo1",
-    "altura": "500 mts",
-    "velocidad": "500kxh",
-    "descuento": 99,
-    "image": "/img/productsImg/dron-5ae4e0fa178c8282.png"
   }
 ]
