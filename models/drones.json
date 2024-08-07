@@ -270,5 +270,22 @@
     "velocidad": "500kxh",
     "descuento": 10,
     "image": "/img/productsImg/default.png"
+  },
+  {
+    "id": "1892ce5f-f27b-4aff-b88d-c5b72961abd6",
+    "nombre": "asdasd55",
+    "marca": "fdsfas",
+    "modelo": "asfas",
+    "descripcion": "asfas",
+    "categoria": "Consumer",
+    "precio": 2000,
+    "peso": "500g",
+    "duracionBateria": "1hora",
+    "camara": "camara 4k",
+    "tipoSensores": "tipo1",
+    "altura": "500 mts",
+    "velocidad": "500kxh",
+    "descuento": 50,
+    "image": "/img/productsImg/dron-4ac2e7ca7237c26c.png"
   }
 ]
