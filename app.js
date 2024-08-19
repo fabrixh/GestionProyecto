@@ -45,16 +45,21 @@ app.use((req, res) => {
   });
 
 
-  app.listen(port, (err) =>
+  app.listen(port, (err) => {
     console.log(
-      err
-        ? `Server failed to launch: ${err.message}`
-        : `
-  ------------------------------------------
-  Server running on http://127.0.0.1:${port}
-  
-  CTRL + C to cancel...
-  ------------------------------------------
+        err
+            ? `❌ Error: No se pudo iniciar el servidor: ${err.message}`
+            : `
+  ✈----------------------------------------------✈
+
+  ¡Bienvenidos a DronsAr ✈, Grupo 6 Digital House!
+  Aquí podes encontrar los mejores productos, información y servicios para tu Dron.
+
+  Servidor corriendo en: http://localhost:${port}
+
+  Presiona CTRL + C para detener el servidor.
+
+  ✈--------------------------------------------------✈
   `
-    )
-  );
+    );
+});
