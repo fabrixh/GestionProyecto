@@ -16,7 +16,7 @@ Bienvenido al repositorio del proyecto integrador del curso Full-Stack de Digita
 - [Sprint 4](https://github.com/chavow5/Grupo_6_DronsAR/blob/fabrixh-sprint4/retro4.md) 🆕🔥
 
 
-## 👨‍👨‍👦‍👦 Integrantes (link de integrantes en integrantes.md)
+## 👨‍👨‍👦‍👦 Integrantes (link de integrantes en [integrantes.md](https://github.com/chavow5/Grupo_6_DronsAR/blob/main/Informacion-DIGITAL%20HOUSE-INTEGRANTES/Integrantes.md))
 
 
 ## 📅 Gestión del Proyecto en Trello
